@@ -1,7 +1,7 @@
 # 👊 알고리즘 뿌시기
 
 # 참고 개념
-## 1. [unordered_map](./참고/unordered_map/개념정리.md)
+## 1. unordered_map [이동](./참고/unordered_map/개념정리.md)
 ## 개념
 
 `std::unordered_map`은 C++ 표준 라이브러리에서 제공하는 연관 컨테이너 중 하나로, 키(key)와 값(value)을 쌍으로 저장합니다. 이 컨테이너는 해시 테이블(hash table)을 기반으로 구현되어 있으며, 키를 해시 함수로 변환하여 요소를 저장하고 검색합니다.
