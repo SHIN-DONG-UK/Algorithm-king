@@ -19,4 +19,4 @@ N, M (1 ≤ M ≤ N 7)
 - 순열과 다른 점 : path에 있는 수도 방문할 수 있음
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0d09fab-f760-445a-969a-74459f3b88cd/702bb4e8-7521-4cf4-96b1-b013e5682673/image.png)
+<img width="1505" alt="스크린샷 2024-10-01 오후 9 58 30" src="https://github.com/user-attachments/assets/abcd3363-7d24-4988-90ce-53befa0a5865">
