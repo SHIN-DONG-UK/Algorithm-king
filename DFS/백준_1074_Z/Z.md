@@ -57,8 +57,8 @@ void go(int start_y, int start_x, int n) {
 - like 이분탐색처럼 풀면 됨
 
 # 4. 수정된 코드
+![image (1)](https://github.com/user-attachments/assets/af53dc55-41e3-46c4-94ef-b55b46fa2edb)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0d09fab-f760-445a-969a-74459f3b88cd/c6da2d08-fc5a-4b6a-a1d0-b1d360c389b2/image.png)
 
 ```cpp
 #include <iostream>
