@@ -4,9 +4,9 @@
 이 저장소는 다양한 알고리즘 문제를 해결한 과정을 정리한 공간입니다.  
 단순히 문제를 푸는 것에 그치지 않고, **문제 접근 방식**, **핵심 로직**, **배운 점**을 기록하며 실력을 체계적으로 다지고자 했습니다.
 
-- 사용 언어: Python3 / C++
-- 주요 플랫폼: [백준](https://www.acmicpc.net/), [프로그래머스](https://programmers.co.kr/), [LeetCode](https://leetcode.com/)
-- 정리 기준: **알고리즘 유형별**, **난이도별**, **핵심 개념 중심**
+- 사용 언어: C++
+- 주요 플랫폼: [백준](https://www.acmicpc.net/), [프로그래머스](https://programmers.co.kr/), [코드트리](https://www.codetree.ai/ko/trail-info)
+- 정리 기준: **알고리즘 유형별**
 
 ---
 
