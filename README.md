@@ -17,19 +17,19 @@
 ├─ 📁 Graph/
 │   ├─ BOJ_16236_아기상어
 |   |   ├─ main.cpp
-|   |   └─ 아기상어.md
+|   |   └─ README.md
 |   ├─ ...
 │   └─ README.md
 ├─ 📁 DP/
 │   ├─ BOJ_11722_가장 긴 감소하는 부분수열
 |   |   ├─ main.cpp
-|   |   └─ 가장 긴 감소하는 부분수열.md
+|   |   └─ README.md
 |   ├─ ...
 │   └─ README.md
 ├─ 📁 Greedy/
 │   ├─ BOJ_1931_회의실 배정
 |   |   ├─ main.cpp
-|   |   └─ 회의실 배정.md
+|   |   └─ README.md
 |   ├─ ...
 │   └─ README.md
 ...
