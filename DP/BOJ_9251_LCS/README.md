@@ -1,4 +1,4 @@
-## 💡 BOJ 1149 - RGB거리 [[문제 링크](https://www.acmicpc.net/problem/9251)]
+## 💡 BOJ 9251 - LCS [[문제 링크](https://www.acmicpc.net/problem/9251)]
 
 | 항목 | 내용 |
 |------|------|

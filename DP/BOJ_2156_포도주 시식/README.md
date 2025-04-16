@@ -1,4 +1,4 @@
-## 💡 BOJ 1149 - RGB거리 [[문제 링크](https://www.acmicpc.net/problem/1149)]
+## 💡 BOJ 2156 - 포도주 시식 [[문제 링크](https://www.acmicpc.net/problem/2156)]
 
 | 항목 | 내용 |
 |------|------|

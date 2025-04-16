@@ -1,4 +1,4 @@
-## 💡 BOJ 1149 - RGB거리 [[문제 링크](https://www.acmicpc.net/problem/2579)]
+## 💡 BOJ 2579 - 계단 오르기 [[문제 링크](https://www.acmicpc.net/problem/2579)]
 
 | 항목 | 내용 |
 |------|------|
