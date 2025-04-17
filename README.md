@@ -42,8 +42,8 @@
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
 | 🧩 그래프 탐색 (BFS/DFS) | ?문제 | [📁 Graph](./Graph/) |
-| 📈 동적 계획법 (DP) | 3문제 | [📁 DP](./DP/) |
-| 💰 그리디 | ?문제 | [📁 Greedy](./Greedy/) |
+| 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
+| 💰 그리디 (Greedy) | 11문제 | [📁 Greedy](./Greedy/) |
 | 🧮 구현 | ?문제 | [📁 Implementation](./Implementation/) |
 
 ---
