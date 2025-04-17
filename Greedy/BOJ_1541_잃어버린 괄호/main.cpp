@@ -24,8 +24,8 @@ void input(){
 }
 
 void calc(){
-    for(int i=0; i<s.size(); i++){
-        if(s[i] == '-' || s[i] == '+'){
+    for(int i=0; i < s.size(); i++) {
+        if(s[i] == '-' || s[i] == '+') {
             v.push_back(s.substr(idx, i-idx));
             v.push_back(s.substr(i, 1));
             idx = i + 1;
@@ -33,7 +33,7 @@ void calc(){
     }
     v.push_back(s.substr(idx, s.size() - idx));
     
-    for(int i=0; i<v.size(); i++){
+    for(int i=0; i<v.size(); i++) {
         if(v[i] == "-") flag = 1;
         
         if(v[i] != "-" && v[i] != "+"){
