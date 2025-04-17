@@ -50,5 +50,4 @@ void simulation() {
             time = meetings[i].end;
         }
     }
-    
 }
