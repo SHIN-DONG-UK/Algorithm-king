@@ -41,9 +41,10 @@
 
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
-| 🧩 그래프 탐색 (BFS/DFS) | ?문제 | [📁 Graph](./Graph/) |
 | 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
 | 💰 그리디 (Greedy) | 13문제 | [📁 Greedy](./Greedy/) |
+| 🧱 브루트포스 (Brute-Force) | 1문제 | [📁 Brute-Force](./Brute-Force/) |
+| 🧩 그래프 탐색 (BFS/DFS) | ?문제 | [📁 Graph](./Graph/) |
 | 🧮 구현 | ?문제 | [📁 Implementation](./Implementation/) |
 
 ---
