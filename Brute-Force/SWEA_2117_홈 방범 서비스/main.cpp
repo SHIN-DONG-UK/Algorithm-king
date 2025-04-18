@@ -45,7 +45,7 @@ void Input() {
 void Solve() {
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
-			for (int k = 1; k <= 22; k++)
+			for (int k = 1; k <= N + 2; k++)
 				Check(i, j, k);
 		}
 	}
@@ -55,19 +55,19 @@ void Check(int cy, int cx, int k) {
 	int cost = 0;
 	int cnt = 0;
 	
-	for (int i = cy-k; i <= cy+k; i++) {
-		for (int j = cx-k; j <= cx+k; j++) {
-			if (i < 0 || i >= N || j < 0 || j >= N)
+	for(int dy = -k + 1; dy < k; dy++){
+		int row = cy + dy;
+		int span = k - 1 - abs(dy);
+		for(int dx = -span; dx < span + 1; dx++){
+			int col = cx + dx;
+			if (row < 0 || row >= N || col < 0 || col >= N)
 				continue;
-			// 마름모 범위에 들어가는 좌표들
-			if (abs(i - cy) + abs(j - cx) <= k - 1) {
-				if (map[i][j] == 1) {
+			if (map[row][col] == 1) {
 					cost += M;
 					cnt++;
-				}
-					
 			}
 		}
+		
 	}
 	if (cost >= k * k + (k - 1)*(k - 1))
 		ans = max(ans, cnt);
