@@ -14,6 +14,9 @@ bool ColorPaper(int y, int x, int num, int flag);
 void Go(int y, int x, int cnt, int lev);
 
 int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+
 	Input();
 	Go(0, 0, 0, 0);
 
@@ -35,7 +38,7 @@ void Input() {
 
 	for (int i = 1; i <= 5; i++)
 		rem[i] = 5;
-	
+
 }
 
 bool ColorPaper(int y, int x, int num, int flag) {
@@ -75,8 +78,8 @@ void Go(int y, int x, int cnt, int lev) {
 			ans = lev;
 		return;
 	}
-	
-	for (int i = 0; i < MAX_N; i++)
+
+	for (int i = y; i < MAX_N; i++)
 	{
 		for (int j = 0; j < MAX_N; j++)
 		{
@@ -90,15 +93,15 @@ void Go(int y, int x, int cnt, int lev) {
 			for (int num = 1; num <= 5; num++) {
 				if (rem[num] == 0)
 					continue;
-				
+
 				if (ColorPaper(i, j, num, 1)) {
 					rem[num]--;
-					Go(i, j, cnt + (num*num), lev + 1);
+					Go(i, j, cnt + (num * num), lev + 1);
 					rem[num]++; // 원복
 					ColorPaper(i, j, num, 0); // 원복
-					
+
 				}
-				
+
 			}
 			return; // 이 부분이 없어서 시간초과남
 			// 종이를 붙일 위치를 찾았으면 return해줘야 함
