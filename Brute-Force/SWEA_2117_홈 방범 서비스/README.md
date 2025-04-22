@@ -2,8 +2,8 @@
 
 | 항목 | 내용 |
 |------|------|
-| 문제 유형 | **Brute-Force** (Backtracking) |
-| 사용 알고리즘 | for-loop |
+| 문제 유형 | **Brute-Force** |
+| 사용 알고리즘 | `for-loop` |
 | 난이도 | 모의 SW 역량 테스트 |
 
 ### ✅ 문제 설명
