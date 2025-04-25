@@ -44,8 +44,8 @@
 | 🧱 브루트포스 (Brute-Force) | 36문제 | [📁 Brute-Force](./Brute-Force/) |
 | 💰 그리디 (Greedy) | 13문제 | [📁 Greedy](./Greedy/) |
 | 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
-| 🔗 링크드 리스트 (Linked-List) | 3문제 | [📁 Implementation](./Implementation/) |
-| 🧮 구현 | ?문제 | [📁 Linked-List](./Linked-List/) |
+| 🔗 링크드 리스트 (Linked-List) | 3문제 | [📁 Linked-List](./Linked-List/) |
+| 🧮 구현 | ?문제 | [📁 Implementation](.//) |
 | 🧩 그래프 탐색 (BFS/DFS) | ?문제 | [📁 Graph](./Graph/) |
 ---
 
