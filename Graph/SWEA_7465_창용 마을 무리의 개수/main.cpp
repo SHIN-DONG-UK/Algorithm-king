@@ -6,7 +6,7 @@ using namespace std;
 
 int T;
 int N, M;
-vector<int> v[101];
+vector<int> v[101]; // 인접 리스트
 int visited[101];
 int group = 1;
 
