@@ -41,7 +41,7 @@
 
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
-| 🧱 브루트포스 (Brute-Force) | 36문제 | [📁 Brute-Force](./Brute-Force/) |
+| 🧱 브루트포스 (Brute-Force) | 37문제 | [📁 Brute-Force](./Brute-Force/) |
 | 💰 그리디 (Greedy) | 13문제 | [📁 Greedy](./Greedy/) |
 | 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
 | ➗ 이분 탐색 (Binary-Search) | 10문제 | [📁 Binary-Search](./Binary-Search/) |
