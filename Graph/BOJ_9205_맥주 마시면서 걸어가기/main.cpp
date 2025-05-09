@@ -14,7 +14,7 @@ struct Point {
 };
 
 int T, N;
-int graph[102][102];
+int graph[102][102]; // 인접행렬방식
 Point sp, ep;
 Point way_list[101];
 int visited[102];
