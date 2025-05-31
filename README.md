@@ -1,7 +1,7 @@
 # ![alt text](./images/flip.gif) 알고리즘 문제 풀이 정리
 
 ## 👋 개요
-이 저장소는 다양한 알고리즘 문제를 해결한 과정을 정리한 레퍼지토리리입니다.  
+이 저장소는 다양한 알고리즘 문제를 해결한 과정을 정리한 레퍼지토리입니다.  
 단순히 문제를 푸는 것에 그치지 않고, **문제 접근 방식**, **핵심 로직**, **배운 점**을 기록하며 실력을 체계적으로 다지고자 했습니다.
 
 - 사용 언어: ![cpp](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white)
@@ -22,14 +22,10 @@
 │   └─ README.md
 ├─ 📁 DP/
 │   ├─ BOJ_11722_가장 긴 감소하는 부분수열
-|   |   ├─ main.cpp
-|   |   └─ README.md
 |   ├─ ...
 │   └─ README.md
 ├─ 📁 Greedy/
 │   ├─ BOJ_1931_회의실 배정
-|   |   ├─ main.cpp
-|   |   └─ README.md
 |   ├─ ...
 │   └─ README.md
 ...
@@ -46,8 +42,8 @@
 | 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
 | ➗ 이분 탐색 (Binary-Search) | 10문제 | [📁 Binary-Search](./Binary-Search/) |
 | 🔗 링크드 리스트 (Linked-List) | 3문제 | [📁 Linked-List](./Linked-List/) |
+| 🧩 그래프 탐색 (BFS/DFS) | 45문제 | [📁 Graph](./Graph/) |
 | 🧮 구현 | ?문제 | [📁 Implementation](.//) |
-| 🧩 그래프 탐색 (BFS/DFS) | ?문제 | [📁 Graph](./Graph/) |
 ---
 
 ## ✏️ 예시 정리
