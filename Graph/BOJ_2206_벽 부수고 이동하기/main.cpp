@@ -1,107 +1,71 @@
 #include <iostream>
 #include <queue>
-#include <algorithm>
 using namespace std;
 
 struct Node {
 	int y;
 	int x;
-	bool flag;
+	bool stat;
 };
 
 int dy[4] = { -1,1,0,0 };
 int dx[4] = { 0,0,-1,1 };
 
 int N, M;
-char MAP[1001][1001];
-int visited[1001][1001];
-int visited_broken[1001][1001];
+char map[1001][1001];
+int dist[1001][1001][2];
 
 void input();
-void bfs();
-void output();
+void solution();
 
 int main() {
-	input();
-	bfs();
-	//output();
+	ios::sync_with_stdio(false);
+	cin.tie(0);
 
-	if (visited[N - 1][M - 1] == 0 && visited_broken[N - 1][M - 1] == 0) cout << -1 << '\n';
-	else if (visited[N - 1][M - 1] == 0) cout << visited_broken[N - 1][M - 1] << '\n';
-	else if (visited_broken[N - 1][M - 1] == 0) cout << visited[N - 1][M - 1] << '\n';
-	else cout << min(visited[N - 1][M - 1], visited_broken[N - 1][M - 1]) << '\n';
+	input();
+	solution();
+
+	if (dist[N - 1][M - 1][0] == 0 && dist[N - 1][M - 1][1] == 0) cout << -1 << '\n';
+	else if (dist[N - 1][M - 1][0] == 0) cout << dist[N - 1][M - 1][1] << '\n';
+	else if (dist[N - 1][M - 1][1] == 0) cout << dist[N - 1][M - 1][0] << '\n';
+	else cout << min(dist[N - 1][M - 1][0], dist[N - 1][M - 1][1]) << '\n';
+
 	return 0;
 }
 
 void input() {
 	cin >> N >> M;
-	for (int i = 0; i < N; i++)
-	{
-		cin >> MAP[i];
+	for (int i = 0; i < N; i++) {
+		cin >> map[i];
 	}
 }
 
-void bfs() {
+void solution() {
 	queue<Node> q;
-	q.push({0, 0, 0});
-	visited[0][0] = 1;
-	visited_broken[0][0] = 1;
+	q.push({ 0,0,0 });
+	dist[0][0][0] = dist[0][0][1] = 1;
 
-	Node cur, next;
+	Node cur;
 	while (!q.empty()) {
-		cur = q.front();
-		q.pop();
+		cur = q.front(); q.pop();
 
-		for (int d = 0; d < 4; d++)
-		{
-			next = { cur.y + dy[d], cur.x + dx[d], cur.flag };
-			if (next.y < 0 || next.y >= N || next.x < 0 || next.x >= M) continue;
-			if (MAP[next.y][next.x] == '1') {
-				if (cur.flag == true) continue;
-				else {
-					if (visited_broken[next.y][next.x] > 0) continue;
-					next.flag = true;
-					visited_broken[next.y][next.x] = visited[cur.y][cur.x] + 1; // flag = false : visited에 기록되어 있음
-					q.push(next);
-				}
+		for (int d = 0; d < 4; d++) {
+			int ny = cur.y + dy[d];
+			int nx = cur.x + dx[d];
+
+			if (ny < 0 || ny >= N || nx < 0 || nx >= M) continue;
+			if (dist[ny][nx][cur.stat] > 0) continue;
+
+			// 길이면, 그대로 진행
+			if (map[ny][nx] == '0') {
+				dist[ny][nx][cur.stat] = dist[cur.y][cur.x][cur.stat] + 1;
+				q.push({ny, nx, cur.stat});
 			}
-			else {
-				if (cur.flag == true) {
-					if (visited_broken[next.y][next.x] > 0) continue;
-					visited_broken[next.y][next.x] = visited_broken[cur.y][cur.x] + 1;
-					q.push(next);
-				}
-				else {
-					// visited에 기록해야 함
-					if (visited[next.y][next.x] > 0) continue;
-					visited[next.y][next.x] = visited[cur.y][cur.x] + 1;
-					q.push(next);
-				}
+			// 벽인데 아직 부순 적 없으면 진행
+			else if (map[ny][nx] == '1' && cur.stat == false) {
+				dist[ny][nx][1] = dist[cur.y][cur.x][0] + 1;
+				q.push({ny, nx, 1});
 			}
 		}
 	}
-}
-
-void output() {
-	cout << '\n';
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < M; j++)
-		{
-			cout << visited[i][j] << ' ';
-		}
-		cout << '\n';
-	}
-	cout << '\n';
-
-	cout << '\n';
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < M; j++)
-		{
-			cout << visited_broken[i][j] << ' ';
-		}
-		cout << '\n';
-	}
-	cout << '\n';
 }
