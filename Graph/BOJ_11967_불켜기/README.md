@@ -1,4 +1,4 @@
-### BOJ 11967 - 불켜기 [[문제 링크]](https://www.acmicpc.net/problem/11967)
+## 💡 BOJ 11967 - 불켜기 [[문제 링크]](https://www.acmicpc.net/problem/11967)
 
 | **항목** | **내용** |
 | - | - |
