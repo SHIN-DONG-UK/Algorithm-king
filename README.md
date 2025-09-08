@@ -37,13 +37,15 @@
 
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
-| 🧱 브루트포스 (Brute-Force) | 37문제 | [📁 Brute-Force](./Brute-Force/) |
-| 💰 그리디 (Greedy) | 13문제 | [📁 Greedy](./Greedy/) |
-| 📈 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
-| ➗ 이분 탐색 (Binary-Search) | 10문제 | [📁 Binary-Search](./Binary-Search/) |
-| 🔗 링크드 리스트 (Linked-List) | 3문제 | [📁 Linked-List](./Linked-List/) |
-| 🧩 그래프 탐색 (BFS/DFS) | 45문제 | [📁 Graph](./Graph/) |
-| 🧮 구현 | ?문제 | [📁 Implementation](.//) |
+| 그래프 탐색 (BFS/DFS) | 45문제 | [📁 Graph](./Graph/) |
+| 브루트포스 (Brute-Force) | 37문제 | [📁 Brute-Force](./Brute-Force/) |
+| 구현 | 25문제 | [📁 Implementation](.//) |
+| 그리디 (Greedy) | 13문제 | [📁 Greedy](./Greedy/) |
+| 동적 계획법 (DP) | 11문제 | [📁 DP](./DP/) |
+| 이분 탐색 (Binary-Search) | 10문제 | [📁 Binary-Search](./Binary-Search/) |
+| 링크드 리스트 (Linked-List) | 3문제 | [📁 Linked-List](./Linked-List/) |
+| 수학 | 1문제 | [📁 수학](./수학/) |
+
 ---
 
 ## 📌 작성자 정보
