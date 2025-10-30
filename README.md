@@ -42,7 +42,7 @@
 | 구현 | 31문제 | [📁 Implementation](./구현/) |
 | 재귀(Recursion) | 20문제 | [📁 Recursion](./Recursion/) |
 | 그리디 (Greedy) | 19문제 | [📁 Greedy](./Greedy/) |
-| 동적 계획법 (DP) | 17문제 | [📁 DP](./DP/) |
+| 동적 계획법 (DP) | 18문제 | [📁 DP](./DP/) |
 | 이분 탐색 (Binary-Search) | 12문제 | [📁 Binary-Search](./Binary-Search/) |
 | 자료구조 | 10문제 | [📁 자료구조](./자료구조/) |
 | 수학 | 9문제 | [📁 수학](./수학/) |
