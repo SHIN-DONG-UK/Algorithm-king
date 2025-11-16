@@ -38,7 +38,7 @@
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
 | 그래프 (Graph) | 56문제 | [📁 Graph](./Graph/) |
-| 브루트포스 (Brute-Force) | 49문제 | [📁 Brute-Force](./Brute-Force/) |
+| 브루트포스 (Brute-Force) | 50문제 | [📁 Brute-Force](./Brute-Force/) |
 | 구현 | 31문제 | [📁 Implementation](./구현/) |
 | 재귀(Recursion) | 20문제 | [📁 Recursion](./Recursion/) |
 | 그리디 (Greedy) | 19문제 | [📁 Greedy](./Greedy/) |
