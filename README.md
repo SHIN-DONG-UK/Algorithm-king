@@ -41,7 +41,7 @@
 | 브루트포스 (Brute-Force) | 55문제 | [📁 Brute-Force](./Brute-Force/) |
 | 구현 | 39문제 | [📁 Implementation](./구현/) |
 | 재귀(Recursion) | 25문제 | [📁 Recursion](./Recursion/) |
-| 동적 계획법 (DP) | 23문제 | [📁 DP](./DP/) |
+| 동적 계획법 (DP) | 24문제 | [📁 DP](./DP/) |
 | 그리디 (Greedy) | 21문제 | [📁 Greedy](./Greedy/) |
 | 이분 탐색 (Binary-Search) | 16문제 | [📁 Binary-Search](./Binary-Search/) |
 | 자료구조 | 12문제 | [📁 자료구조](./자료구조/) |
