@@ -159,7 +159,7 @@
 
 - Segment Tree
 	- ori값을 기반으로 노드별 값을 가진 트리
-	- Complete Binary Tree
+	- Full Binary Tree
 	- seg[]
 
 - HashMap or TreeMap
