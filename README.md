@@ -1,11 +1,11 @@
 # ![alt text](./images/flip.gif) 알고리즘 문제 풀이 정리
 
 ## 👋 개요
-이 저장소는 다양한 알고리즘 문제를 해결한 과정을 정리한 레퍼지토리입니다.  
-단순히 문제를 푸는 것에 그치지 않고, **문제 접근 방식**, **핵심 로직**, **배운 점**을 기록하며 실력을 체계적으로 다지고자 했습니다.
+알고리즘 문제 해결 과정을 정리한 레퍼지토리입니다.  
+단순히 코드를 첨부하기 보다, **문제 접근 방식**, **핵심 로직**, **배운 점**을 기록하며 실력을 체계적으로 다지고자 했습니다.
 
 - 사용 언어: ![cpp](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white)
-- 주요 플랫폼: [백준](https://www.acmicpc.net/), [SWEA](https://swexpertacademy.com/main/main.do), [코드트리](https://www.codetree.ai/ko/trail-info)
+- 주요 플랫폼: [LeetCode](https://leetcode.com/), [백준](https://www.acmicpc.net/), [SWEA](https://swexpertacademy.com/main/main.do), [코드트리](https://www.codetree.ai/ko/trail-info), 
 - 정리 기준: **알고리즘 유형별**
 
 ---
