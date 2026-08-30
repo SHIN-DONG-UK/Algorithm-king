@@ -43,7 +43,7 @@
 | 재귀(Recursion) | 26문제 | [📁 Recursion](./Recursion/) |
 | 동적 계획법 (DP) | 26문제 | [📁 DP](./DP/) |
 | 그리디 (Greedy) | 23문제 | [📁 Greedy](./Greedy/) |
-| 이분 탐색 (Binary-Search) | 16문제 | [📁 Binary-Search](./Binary-Search/) |
+| 이분 탐색 (Binary-Search) | 17문제 | [📁 Binary-Search](./Binary-Search/) |
 | 수학 | 16문제 | [📁 수학](./수학/) |
 | 자료구조 | 12문제 | [📁 자료구조](./자료구조/) |
 | 문자열 | 4문제 | [📁 문자열](./문자열/) |
