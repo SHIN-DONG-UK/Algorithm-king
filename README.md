@@ -37,7 +37,7 @@
 
 | 분류 | 문제 수 | 바로가기 |
 |------|---------|----------|
-| 그래프 (Graph) | 62문제 | [📁 Graph](./Graph/) |
+| 그래프 (Graph) | 63문제 | [📁 Graph](./Graph/) |
 | 브루트포스 (Brute-Force) | 57문제 | [📁 Brute-Force](./Brute-Force/) |
 | 구현 | 40문제 | [📁 Implementation](./구현/) |
 | 재귀(Recursion) | 26문제 | [📁 Recursion](./Recursion/) |
