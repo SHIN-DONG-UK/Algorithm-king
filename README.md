@@ -39,7 +39,7 @@
 |------|---------|----------|
 | 그래프 (Graph) | 63문제 | [📁 Graph](./Graph/) |
 | 브루트포스 (Brute-Force) | 57문제 | [📁 Brute-Force](./Brute-Force/) |
-| 구현 | 40문제 | [📁 Implementation](./구현/) |
+| 구현 | 41문제 | [📁 Implementation](./구현/) |
 | 재귀(Recursion) | 26문제 | [📁 Recursion](./Recursion/) |
 | 동적 계획법 (DP) | 26문제 | [📁 DP](./DP/) |
 | 그리디 (Greedy) | 23문제 | [📁 Greedy](./Greedy/) |
